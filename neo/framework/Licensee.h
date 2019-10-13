@@ -34,7 +34,7 @@ If you have questions concerning this license or the applicable additional terms
 ===============================================================================
 */
 
-#define GAME_NAME						"fhDOOM"		// appears on window titles and errors
+#define GAME_NAME						"DeadMETAL"		// appears on window titles and errors
 
 // paths
 #define	CD_BASEDIR						"Doom"
@@ -86,13 +86,13 @@ If you have questions concerning this license or the applicable additional terms
 #define RENDERDEMO_VERSION				2
 
 // editor info
-#define EDITOR_REGISTRY_KEY				"DOOMRadiant"
-#define EDITOR_WINDOWTEXT				"DOOMEdit"
+#define EDITOR_REGISTRY_KEY				"DarkRadiant"
+#define EDITOR_WINDOWTEXT				"DarkRadiant"
 
 // win32 info
-#define WIN32_CONSOLE_CLASS				"DOOM 3 WinConsole"
-#define	WIN32_WINDOW_CLASS_NAME			"DOOM3"
-#define	WIN32_FAKE_WINDOW_CLASS_NAME	"DOOM3_WGL_FAKE"
+#define WIN32_CONSOLE_CLASS				"DeadMETAL WinConsole"
+#define	WIN32_WINDOW_CLASS_NAME			"DeadMETAL"
+#define	WIN32_FAKE_WINDOW_CLASS_NAME	"DeadMETAL_WGL_FAKE"
 
 // CD Key file info
 // goes into BASE_GAMEDIR whatever the fs_game is set to

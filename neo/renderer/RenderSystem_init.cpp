@@ -318,6 +318,7 @@ namespace {
 	const int AR_4_3 = 0;
 	const int AR_16_9 = 1;
 	const int AR_16_10 = 2;
+	const int AR_21_9 = 3;
 
 	const vidmode_t r_vidModes[] = {
 		{ "Mode  0: 320x240", 320, 240, AR_4_3 },
@@ -337,6 +338,8 @@ namespace {
 		{ "Mode 13: 1680x1050", 1680, 1050, AR_16_10 },
 		{ "Mode 14: 1920x1080", 1920, 1080, AR_16_9 },
 		{ "Mode 15: 1920x1200", 1920, 1200, AR_16_10 },
+		// 21:9 Ultrawide support
+		{ "Mode 16: 2560x1080", 2560, 1080, AR_21_9 },
 	};
 	const int s_numVidModes = (sizeof( r_vidModes ) / sizeof( r_vidModes[0] ));
 
@@ -777,7 +780,8 @@ static void R_ListModes_f( const idCmdArgs &args ) {
   static const char* ar[] = {
     "4:3",
     "16:9",
-    "16:10"
+    "16:10",
+    "21:9"
   };
 
   common->Printf( "\n" );
